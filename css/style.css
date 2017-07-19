@@ -1,5 +1,6 @@
 * {
-	margin: 0;
+    margin: 0;
+    padding: 0;
 }
 
 html {
@@ -11,4 +12,26 @@ body {
 .container {
     height: 100%;
     background-color: rebeccapurple;
+}
+
+.nav {
+    background-color: gold;
+}
+
+.menu {
+    display: flex;
+    flex-direction: row;
+     /* justify-content: space-around;  */
+}
+
+.menu > li {
+    background-color: green;
+     padding: auto; 
+      margin: auto;  
+     display: block; 
+
+}
+
+.menu > li:hover {
+    background-color: gray;
 }
