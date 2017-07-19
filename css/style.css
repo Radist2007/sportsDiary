@@ -35,3 +35,9 @@ body {
 .menu > li:hover {
     background-color: gray;
 }
+
+.main > section > ul > li{
+    padding: 10px;
+    margin: auto;
+    text-align: center;
+}
