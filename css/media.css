@@ -1,11 +1,6 @@
- /* @media only screen and (max-width: 480xp) {
-    .container {
-       background-color: green;
-    }
-}  */
-
- @media only screen and (max-width: 500px) {
+@media only screen and (max-width: 500px) {
     .container{
         background-color: lightblue;
     }
 } 
+

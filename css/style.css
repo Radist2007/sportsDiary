@@ -6,9 +6,11 @@
 html {
     height: 100%;
 }
+
 body {
     height: 100%;
 }
+
 .container {
     height: 100%;
     background-color: rebeccapurple;
@@ -21,15 +23,16 @@ body {
 .menu {
     display: flex;
     flex-direction: row;
-     /* justify-content: space-around;  */
+      /* justify-content: space-around;   */
 }
 
 .menu > li {
     background-color: green;
-     padding: auto; 
-      margin: auto;  
-     display: block; 
-
+    padding: 10px 4px;
+    display: block;
+    width: 25%;
+    font-size: 10px;
+    text-align: center;
 }
 
 .menu > li:hover {
@@ -39,6 +42,16 @@ body {
 .main > section > ul > li{
     padding: 10px;
     margin: auto;
-    text-align: center;
+    text-align: left;
+    background-color: ghostwhite;
 }
 
+.main > section > ul > li:hover {
+    background-color: gray;
+    color: wheat;
+}
+
+a {
+    text-decoration: none;
+    text-transform: uppercase;
+}
