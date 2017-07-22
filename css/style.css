@@ -39,6 +39,9 @@ body {
     background-color: gray;
 }
 
+.span {
+    
+}
 #today {
     background-color: gold;
 }
@@ -47,9 +50,12 @@ body {
 }
 
 .main > section > ul > li{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
     padding: 10px;
     margin: auto;
-    text-align: left;
+     text-align: left;
     background-color: ghostwhite;
 }
 
